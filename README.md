@@ -71,8 +71,9 @@ Then Double-click `index.html` to open it.
 
 ## 🎯 Target Audience
 
-*Web development beginners 🌱
-*Students 🎓
+**Web development beginners 🌱**
+
+**Students 🎓**
 
 ---
 
