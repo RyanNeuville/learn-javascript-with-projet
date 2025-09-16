@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #e5e5e5;
+}
+.dicoApp{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input,button{
+    border: none;
+    padding: 10px;
+}
+input{
+    border-radius: 2px;
+    width: 80%;
+    
+}
+button{
+    width: 18%;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(155, 70, 234);
+}
+.res{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+}
