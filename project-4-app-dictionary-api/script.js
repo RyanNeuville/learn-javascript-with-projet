@@ -8,12 +8,16 @@ function search() {
     fetch(url).then((response) =>
       response.json().then((data) => {
         try {
-            for(let words of data){
-                let definition = words.meanings[0].definitions[0].definition;
-                resultat.innerHTML = "<p class='res'> <span> Definition</span><br>"+definition+" </p>"
-            }
+          for (let words of data) {
+            let definition = words.meanings[0].definitions[0].definition;
+            resultat.innerHTML =
+              "<p class='res'> <span> Definition</span><br>" +
+              definition +
+              " </p>";
+          }
         } catch (error) {
-            resultat.innerHTML= "<p class='res'>Aucune Definition trouver pour ce mot !</p>"
+          resultat.innerHTML =
+            "<p class='res'>Aucune Definition trouver pour ce mot !</p>";
         }
       })
     );

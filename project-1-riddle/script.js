@@ -8,7 +8,6 @@ let link = document.getElementById("link");
 const secretNumber = Math.floor(Math.random() * 100);
 let attemps = 3;
 
-
 button.onclick = function () {
   const input = document.getElementById("input");
 
