@@ -3,7 +3,7 @@ function search() {
   let resultat = document.getElementById("resultat");
 
   if (word.length != 0) {
-    let url = "https://dictionaryapi.dev/api/v2/entries/en/" + word;
+    let url = "https://api.dictionaryapi.dev/api/v2/entries/en/" + word;
 
     fetch(url).then((response) =>
       response.json().then((data) => {
